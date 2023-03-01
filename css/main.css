@@ -143,6 +143,9 @@ body {
   font-family: 'Rock Salt', cursive;
 
 }
+
+
+
 .wrapper {
     display: grid;
     position: relative;
@@ -153,11 +156,17 @@ body {
     background-color: rgba(36, 37, 48, 1);
   }
 
+.output_calc {
+    display: grid;
+    font-size: 42px;
+    color: #fff;
+    align-self: end;
+}
 
 .output {
   padding: 20px 20px;
 }
-.button {
+.buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-content: center;
